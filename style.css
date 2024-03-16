@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hwb(293 75% 6%);
+    color: hwb(280 95% 4%);
+    background-image: url('signin.jpeg');
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    background-color: hwb(283 35% 52%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px hsla(279, 49%, 42%, 0.102);
+    text-align: center;
+}
+
+form {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+label {
+    font-weight: lighter;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid hwb(320 1% 60%);
+    border-radius: 7px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e4b3ed;
+    color: hsl(317, 56%, 56%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 40px;
+    width:300px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: hwb(294 46% 4%);
+    color: hsl(291, 92%, 15%);
+}
+
+.error-message{
+    color: hwb(7 3% 10%);
+    margin-top: 5px;
+}
